@@ -1,0 +1,5 @@
+# Exclude SSL certificate files
+ssl/nginx-selfsigned.crt
+ssl/nginx-selfsigned.key
+
+# Exclude other files or directories as needed
