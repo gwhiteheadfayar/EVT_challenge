@@ -26,6 +26,6 @@
 ## Why did I choose the components I chose? 
 * For my web server, I chose NGINX, because my Capstone project is using NGINX to stream video, so I had already been introduced to the technology. Additionally, I chose NGINX because it is known to work well with docker, and upon doing some research, found out is a better solution for lightweight, small projects like this over competitors like Apache.
 
-*I chose to use a dockerfile, and docker, over a config-management tool like Ansible or puppet because i was interested in docker, and as mentioned previously, saw that it played well with NGINX. At my previous internship and J.B. Hunt, docker was used frequently along with kubernetes, and although I personally never was involved with it, I wanted to give it a shot.
+* I chose to use a dockerfile, and docker, over a config-management tool like Ansible or puppet because i was interested in docker, and as mentioned previously, saw that it played well with NGINX. At my previous internship and J.B. Hunt, docker was used frequently along with kubernetes, and although I personally never was involved with it, I wanted to give it a shot.
 
 Thanks!
