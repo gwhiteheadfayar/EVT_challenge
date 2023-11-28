@@ -14,7 +14,7 @@
 # How to Run:
 1. Pull the files from this repository in the command prompt using ```git clone [repository link]```.
 2. Once the repo is cloned, you're going to need to create an SSL directory. Git doesn't allow empty folders, otherwise I would have left it there.
-3. Find OpenSSL.exe within git's directory and modify this command to fit your ssl folder, then run it: ```openssl req -x509 -newkey rsa:4096 -keyout YOUR_SSL_FOLDER/nginx-selfsigned.key -out YOUR_SSL_FOLDER/nginx-selfsigned.crt -days 365``` to create new SSL certificates. These will only be valid for a year, denoted by -days 365. You can cahnge it to be however long you wish.
+3. Find OpenSSL.exe within git's directory and modify this command to fit your ssl folder, then run it: ```openssl req -x509 -newkey rsa:4096 -keyout YOUR_SSL_FOLDER/nginx-selfsigned.key -out YOUR_SSL_FOLDER/nginx-selfsigned.crt -days 365``` to create new SSL certificates. These will only be valid for a year, denoted by -days 365. You can change it to be however long you wish.
 4. After generating the certificate and key and placing them in the correct folder of the project directory, make sure docker is running.
 5. Run the shell script, "start.sh". This will build the container and run it.
 6. Navigate to https://localhost, and you will see index.html is up for viewing.
